@@ -1,63 +1,63 @@
-# **HITO 4:** Conectar a API OpenAI (chat grupal)
+# **MARCO 4:** Conectar a API OpenAI (chat grupal)
 
-El objetivo de este hito es permitir a las usuarias interactuar con
-todos los personajes a través de un chat grupal.
+O objetivo deste marco é permitir que os usuários interajam com
+todos os personagens através de um chat grupal.
 
-## Tareas de este hito
+## Tarefas deste marco
 
-- [Creación de una vista para interactuar con todos los elementos del conjunto de datos](#creación-de-una-vista-para-interactuar-con-todos-los-elementos-del-conjunto-de-datos)
-- [Consumo de la integración con Open AI](#consumo-de-la-integración-con-open-ai)
-- [Implementación de tests](#implementación-de-tests)
+- [Criação de uma visualização para interagir com todos os elementos do conjunto de dados](#criação-de-uma-visualização-para-interagir-com-todos-os-elementos-do-conjunto-de-dados)
+- [Consumo da integração com Open AI](#consumo-da-integração-com-open-ai)
+- [Implementação de testes](#implementação-de-testes)
 
-### Creación de una vista para interactuar con todos los elementos del conjunto de datos
+### Criação de uma visualização para interagir com todos os elementos do conjunto de dados
 
-1. Navega hacia la carpeta `views` en tu proyecto y dentro de
-esta carpeta, crea un componente para la vista del chat grupal,
-por ejemplo, `ChatGroup.js` o `Panel.js`,
-que mostrará un chat grupal con todos los personajes.
-Este componente debe permitir a los usuarios enviar
-mensajes a todos los personajes o elementos del dataset
-y recibir respuestas.
+1. Navegue até a pasta `views` em seu projeto e dentro dela,
+crie um componente para a visualização do chat grupal,
+por exemplo, `ChatGroup.js` ou `Panel.js`,
+que mostrará um chat grupal com todos os personagens.
+Este componente deve permitir aos usuários enviar
+mensagens para todos os personagens ou elementos do conjunto de dados
+e receber respostas.
 
-2. La vista debe poder obtener los datos necesarios (id) para
-mostrar los elementos del conjunto de datos.
-Esto se puede hacer pasando los datos como parámetros o utilizando
-funciones que obtienen los datos.
+2. A visualização deve ser capaz de obter os dados necessários (id) para
+mostrar os elementos do conjunto de dados.
+Isso pode ser feito passando os dados como parâmetros ou utilizando
+funções que obtêm os dados.
 
-### Consumo de la integración con Open AI
+### Consumo da integração com Open AI
 
-Obten las respuestas de todos los elementos en la data utilizando
-la función designada para consumir la API de OpenAI,
-en el caso de este ejemplo, `communicateWithOpenAI`.
-Esto permitirá a los usuarios interactuar con todos los
-personajes a través
-de un chat grupal.
+Obtenha as respostas de todos os elementos nos dados utilizando
+a função designada para consumir a API da OpenAI,
+neste exemplo, `communicateWithOpenAI`.
+Isso permitirá que os usuários interajam com todos os
+personagens através
+de um chat grupal.
 
-> [!TIP]
-> Revisa el tema de
->[Promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
->y el método
->[Promise.all()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+> [!DICA]
+> Revise o tópico de
+>[Promessas](https://curriculum.laboratoria.la/pt/topics/javascript/async/promises)
+>e o método
+>[Promise.all()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
 
-Para lograr este objetivo, toma como guia los siguientes pasos:
+Para alcançar este objetivo, siga estes passos:
 
-1. Obtener la lista de elementos en la data.
+1. Obtenha a lista de elementos nos dados.
 
-2. Para cada elemento en la lista:
+2. Para cada elemento na lista:
 
-   + Enviar un mensaje a la función communicateWithOpenAI.
-   + Guardar la respuesta de la función communicateWithOpenAI.
-   + Mostrar la respuesta de la función communicateWithOpenAI.
+   + Envie uma mensagem para a função communicateWithOpenAI.
+   + Guarde a resposta da função communicateWithOpenAI.
+   + Mostre a resposta da função communicateWithOpenAI.
 
 ![Preview Chat Grupal](./assets/previewGrupalChat.gif)
 
-### Implementación de tests
+### Implementação de testes
 
-Para verificar el funcionamiento de las funciones creadas, crea un archivo
-`openAIApi.spec.js` en la carpeta `test`.
+Para verificar o funcionamento das funções criadas, crie um arquivo
+`openAIApi.spec.js` na pasta `test`.
 
-> [!TIP]
-> Puedes revisar esta documentación de un [Test de código asíncrono.](https://jestjs.io/es-ES/docs/asynchronous)
+> [!DICA]
+> Você pode revisar esta documentação sobre [Testes de código assíncrono](https://jestjs.io/pt-BR/docs/asynchronous).
 
 ``` js
 // test/openAIApi.spec.js
@@ -74,8 +74,8 @@ describe('communicateWithOpenAI', () => {
 
 ```
 
-> [!NOTE]
-> `communicateWithOpenAI` es una sugerencia para el nombre
-de tu función. Puedes elegir el nombre que prefieras.
+> [!NOTA]
+> `communicateWithOpenAI` é uma sugestão para o nome
+da sua função. Você pode escolher o nome que preferir.
 
-[👈Todos los hitos](../README.md#6-hitos)
+[👈Todos os marcos](../README.md#6-marcos)
