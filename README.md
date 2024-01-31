@@ -672,7 +672,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
 ### Primeiros passos
 
-Junte-se ao canal Slack [#project-dataverse-chat](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+Junte-se ao canal Slack [#project-dataverse-chat-pt](https://claseslaboratoria.slack.com/archives/C06GE35H7B7)
 para conversar e pedir ajuda sobre o projeto.
 
 Sugerimos algumas tarefas para iniciar o projeto. Não é

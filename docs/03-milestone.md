@@ -1,38 +1,38 @@
-# **HITO 3:** Conectar a API OpenAI (chat individual)
+# **MARCO 3:** Conectar a API OpenAI (chat individual)
 
-Almacenar de forma segura tu clave de API y lograr que nuestra aplicación se
-conecte de manera efectiva a la API de OpenAI son el core de este hito.
-<!-- Este es un tip de Github Pages, https://github.com/orgs/community/discussions/16925 -->
-> [!IMPORTANT]
-> Para ello, asegúrate de solicitar tu APIKEY a las coaches.
+Armazenar de forma segura sua chave de API e garantir que nosso aplicativo se
+conecte de forma eficaz à API OpenAI são o cerne deste marco.
+<!-- Este é um dica do Github Pages, https://github.com/orgs/community/discussions/16925 -->
+> [!IMPORTANTE]
+> Para isso, certifique-se de solicitar sua APIKEY aos coaches.
 
-## Tareas de este hito
+## Tarefas deste marco
 
-- [Manejo de la API KEY en la Aplicación](#manejo-de-la-api-key-en-la-aplicación)
-- [Almacenamiento Seguro de la API KEY con Local Storage](#almacenamiento-seguro-de-la-api-key-con-local-storage)
-- [Pruebas para funciones de API Key](#pruebas-para-funciones-de-api-key)
-- [Creación de una vista para interactuar con cada elementos del conjunto de datos](#creación-de-una-vista-para-interactuar-con-cada-elementos-del-conjunto-de-datos)
-- [Integración con Open AI](#integración-con-open-ai)
+- [Manejo da API KEY na Aplicação](#manejo-da-api-key-na-aplicação)
+- [Armazenamento Seguro da API KEY com Local Storage](#armazenamento-seguro-da-api-key-com-local-storage)
+- [Testes para funções de API Key](#testes-para-funções-de-api-key)
+- [Criação de uma visualização para interagir com cada elemento do conjunto de dados](#criação-de-uma-visualização-para-interagir-com-cada-elemento-do-conjunto-de-dados)
+- [Integração com Open AI](#integração-com-open-ai)
 
-### Manejo de la API KEY en la Aplicación
+### Manejo da API KEY na Aplicação
 
-El manejo de las API KEYs es crucial para mantener la seguridad.
-Con el fin de no incluir la clave directamente en el código de la aplicación,
-crea un input que permita ingresar o pegar la API KEY.
-Este input puede estar ubicado en una vista,
-dialog o modal.
+O manejo das API KEYs é crucial para manter a segurança.
+A fim de não incluir a chave diretamente no código do aplicativo,
+crie um campo de entrada que permita inserir ou colar a API KEY.
+Este campo de entrada pode estar localizado em uma visualização,
+diálogo ou modal.
 
 ![Preview apiKey](./assets/previewApiKey.png)
 
-### Almacenamiento Seguro de la API KEY con Local Storage
+### Armazenamento Seguro da API KEY com Local Storage
 
-Para garantizar la seguridad y persistencia de la
-API KEY, se sugiere utilizar [Local Storage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage).
-Te recomendamos seguir estos pasos:
+Para garantir a segurança e persistência da
+API KEY, sugere-se utilizar [Local Storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage).
+Recomendamos seguir estes passos:
 
-1. En la carpeta `lib`, crea un nuevo archivo llamado `apiKey.js`.
+1. Na pasta `lib`, crie um novo arquivo chamado `apiKey.js`.
 
-2. Dentro de `apiKey.js`, implementa dos funciones esenciales:
+2. Dentro de `apiKey.js`, implemente duas funções essenciais:
 
 ```js
 // src/lib/apiKey.js
@@ -46,12 +46,12 @@ export const setApiKey = (key) => {
 };
 ```
 
-### Pruebas para funciones de API Key
+### Testes para funções de API Key
 
-Dentro de la carpeta `test`, crea un archivo llamado
-`apiKey.spec.js`. En este archivo, desarrolla los
-tests correspondientes. Puedes utilizar el siguiente
-esquema como punto de partida:
+Dentro da pasta `test`, crie um arquivo chamado
+`apiKey.spec.js`. Neste arquivo, desenvolva os
+testes correspondentes. Você pode utilizar o seguinte
+esquema como ponto de partida:
 
 ``` js
 // test/apiKey.spec.js
@@ -74,55 +74,55 @@ describe('setApiKey', () => {
 
 ```
 
-### Creación de una vista para interactuar con cada elementos del conjunto de datos
+### Criação de uma visualização para interagir com cada elemento do conjunto de dados
 
-Para facilitar la interacción con un elemento específico de nuestro
-conjunto de datos, crearemos una nueva vista. Sigue estos pasos:
+Para facilitar a interação com um elemento específico do nosso
+conjunto de dados, criaremos uma nova visualização. Siga estes passos:
 
-1. Ingresa a la carpeta `views` de tu proyecto.
-Si encuentras un archivo llamado `About.js`,
-cámbiale el nombre según el conjunto de datos
-que estás manejando, como por ejemplo `Planet.js`
-si trabajas con datos de planetas.
-Si no existe el archivo `About.js`,
-puedes crear uno nuevo con un nombre pertinente.
+1. Acesse a pasta `views` do seu projeto.
+Se encontrar um arquivo chamado `About.js`,
+renomeie-o conforme o conjunto de dados
+com o qual está lidando, como por exemplo `Planet.js`
+se estiver trabalhando com dados de planetas.
+Se o arquivo `About.js` não existir,
+você pode criar um novo com um nome relevante.
 
-2. Dentro de este archivo, desarrolla la vista que te permitirá chatear
-con los elementos del conjunto de datos. Puedes incluir componentes como botones,
-formularios o cualquier otro elemento necesario para lograr el objetivo específico
-de tu aplicación.
+2. Dentro deste arquivo, desenvolva a visualização que permitirá interagir
+com os elementos do conjunto de dados. Você pode incluir componentes como botões,
+formulários ou qualquer outro elemento necessário para alcançar o objetivo específico
+da sua aplicação.
 
-3. Asegúrate de que esta vista sea capaz de recibir un identificador (id)
-u otros datos necesarios para mostrar el elemento específico del conjunto
-de datos. Puedes lograr esto mediante la utilización de parámetros, como por
-ejemplo a través de los
-[search params](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams)
-de URL que el router puede comunicar.
+3. Certifique-se de que esta visualização seja capaz de receber um identificador (id)
+ou outros dados necessários para mostrar o elemento específico do conjunto
+de dados. Você pode conseguir isso usando parâmetros, como por
+exemplo através dos
+[search params](https://developer.mozilla.org/pt-BR/docs/Web/API/URLSearchParams)
+da URL que o router pode comunicar.
 
 ![Preview Detail](./assets/previewDetail.gif)
 
-> [!IMPORTANT]
-> Recuerda utilizar las funciones que creamos anteriormente en `apiKey.js`
-para manejar de manera segura la API KEY.
+> [!IMPORTANTE]
+> Lembre-se de utilizar as funções que criamos anteriormente em `apiKey.js`
+para gerenciar de forma segura a API KEY.
 
-### Integración con Open AI
+### Integração com Open AI
 
-Para obtener respuestas de cada elementos o personaje y poder interactuar
-con él o ella, es esencial realizar una solicitud HTTP a OpenAI.
-En este proceso, es recomendable familiarizarse con los conceptos de
-[promesas](https://curriculum.laboratoria.la/es/topics/javascript/async/promises)
-y considerar la utilización de
-[fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)
-o [axios](https://axios-http.com/docs/intro)
-para llevar a cabo la petición.
+Para obter respostas de cada elemento ou personagem e poder interagir
+com ele ou ela, é essencial fazer uma solicitação HTTP para a OpenAI.
+Neste processo, é recomendável se familiarizar com os conceitos de
+[promessas](https://curriculum.laboratoria.la/pt/topics/javascript/async/promises)
+e considerar o uso de
+[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+ou [axios](https://axios-http.com/docs/intro)
+para realizar a solicitação.
 
-Te sugerimos organizar el código asociado a esta tarea dentro de la carpeta `lib`.
-En esta carpeta, puedes crear un archivo llamado `openAIApi.js`,
-que contendrá una función específica. Esta función debe recibir un parámetro
-que almacena los mensajes; ten presente que dichos mensajes deben seguir una
-estructura específica, la cual puedes comprender mejor consultando la
-[documentación](https://platform.openai.com/docs/api-reference/chat/create)
-proporcionada por OpenAI.
+Sugerimos que você organize o código associado a esta tarefa dentro da pasta `lib`.
+Nesta pasta, você pode criar um arquivo chamado `openAIApi.js`,
+que conterá uma função específica. Esta função deve receber um parâmetro
+que armazena as mensagens; tenha em mente que essas mensagens devem seguir uma
+estrutura específica, que você pode entender melhor consultando a
+[documentação](https://platform.openai.com/docs/api-reference/chat/create)
+fornecida pela OpenAI.
 
 ```js
 // src/lib/openAIApi.js
@@ -137,8 +137,8 @@ export const communicateWithOpenAI = (messages) => {
 
 ```
 
-> [!NOTE]
-> `communicateWithOpenAI` es una sugerencia para el nombre
-de tu función. Puedes elegir el nombre que prefieras.
+> [!NOTA]
+> `communicateWithOpenAI` é uma sugestão para o nome
+da sua função. Você pode escolher o nome que preferir.
 
-[👈Todos los hitos](../README.md#6-hitos)
+[👈Todos os marcos](../README.md#6-marcos)

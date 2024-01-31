@@ -1,73 +1,72 @@
-# **HITO 5:** Refactorización y modularización
+# **HITO 5:** Refatoração e Modularização
 
-El objetivo de este **hito opcional** es mejorar la estructura
-y la organización de la aplicación mediante la refactorización
-y la modularización.
+O objetivo deste **marco opcional** é melhorar a estrutura
+e organização do aplicativo através da refatoração
+e modularização.
 
-La refactorización y modularización son esenciales para
-mejorar la estructura de una aplicación. La primera
-optimiza el código sin cambiar su comportamiento, mientras
-que la segunda divide la aplicación en componentes más
-manejables. Es crucial correr y corregir los tests
-simultáneamente para garantizar la integridad del código.
+A refatoração e modularização são essenciais para
+melhorar a estrutura de um aplicativo. A primeira
+otimiza o código sem alterar seu comportamento, enquanto
+a segunda divide o aplicativo em componentes mais
+gerenciáveis. É crucial executar e corrigir os testes
+simultaneamente para garantir a integridade do código.
 
- Al dividir una aplicación en componentes más pequeños,
- podemos lograr los siguientes beneficios:
+Ao dividir um aplicativo em componentes menores,
+podemos alcançar os seguintes benefícios:
 
-* Mejora la legibilidad y la comprensión del código.
-* Facilita el mantenimiento y la actualización del código.
-* Reduce la complejidad de la aplicación.
-* Mejora el rendimiento de la aplicación.
+* Melhora a legibilidade e compreensão do código.
+* Facilita a manutenção e atualização do código.
+* Reduz a complexidade do aplicativo.
+* Melhora o desempenho do aplicativo.
 
-## Tareas de este hito
+## Tarefas deste marco
 
 * [Identificar partes para dividir](#identificar-partes-para-dividir)
-* [Implementar la división de los componentes más pequeños](#implementar-la-división-de-los-componentes-más-pequeños)
-* [Asegurar funcionamiento post refactorización](#asegurar-funcionamiento-post-refactorización)
+* [Implementar a divisão dos componentes menores](#implementar-a-divisão-dos-componentes-menores)
+* [Assegurar o funcionamento pós-refatoração](#assegurar-o-funcionamento-pós-refatoração)
 
 ### Identificar partes para dividir
 
-Para esta tarea, deberás examinar la aplicación y buscar áreas
-que puedan dividirse en componentes más pequeños.
-Algunas cosas a tener en cuenta son:
+Para esta tarefa, você deve examinar o aplicativo e buscar áreas
+que possam ser divididas em componentes menores.
+Algumas coisas a serem consideradas são:
 
-1. Funciones que realizan tareas independientes.
-2. Datos que se utilizan de forma independiente.
-3. Interfaz de usuario que se puede dividir en partes más pequeñas.
+1. Funções que realizam tarefas independentes.
+2. Dados que são usados de forma independente.
+3. Interface do usuário que pode ser dividida em partes menores.
 
-### Implementar la división de los componentes más pequeños
+### Implementar a divisão dos componentes menores
 
-Una vez que hayas identificado las partes que pueden dividirse,
-deberás implementar la división en componentes más pequeños.
-Esto puede hacerse de varias maneras, como:
+Uma vez identificadas as partes que podem ser divididas,
+você deve implementar a divisão em componentes menores.
+Isso pode ser feito de várias maneiras, como:
 
-1. Crear nuevos componentes a partir de código existente.
-2. Mover código existente a componentes existentes.
-3. Reestructurar el código existente para que sea más modular.
+1. Criar novos componentes a partir de código existente.
+2. Mover código existente para componentes existentes.
+3. Reestruturar o código existente para que seja mais modular.
 
-### Asegurar funcionamiento post refactorización
+### Assegurar funcionamento pós-refatoração
 
-Es importante probar la aplicación después de la refactorización para
-asegurarse de que funciona correctamente. Esto puede hacerse probando
-la aplicación manualmente o utilizando un marco de pruebas automatizado.
+É importante testar o aplicativo após a refatoração para garantir
+que ele funcione corretamente. Isso pode ser feito testando
+o aplicativo manualmente ou utilizando um framework de testes automatizados.
 
-#### Ejemplo
+#### Exemplo
 
-Imaginemos que tenemos una aplicación que muestra una lista de personajes.
-La aplicación tiene una vista que muestra la lista de personajes,
-y una función que obtiene los datos de los personajes.
+Vamos supor que temos um aplicativo que mostra uma lista de personagens.
+O aplicativo possui uma visualização que exibe a lista de personagens,
+e uma função que obtém os dados dos personagens.
 
-Para mejorar la estructura y la organización de la aplicación,
-podemos dividir la función `getCharacters()` en dos componentes
-más pequeños:
+Para melhorar a estrutura e organização do aplicativo,
+podemos dividir a função `getCharacters()` em dois componentes
+menores:
 
-1. Un componente `CharacterRepository` que se encarga de obtener
-los datos de los personajes.
+1. Um componente `CharacterRepository` que é responsável por obter
+os dados dos personagens.
 
-2. Un componente `CharacterList` que se encarga de mostrar la lista de personajes.
+2. Um componente `CharacterList` que é responsável por exibir a lista de personagens.
 
-Esta división nos permite separar la lógica de obtención de datos
-de la lógica de visualización. Esto hace que la aplicación sea más
-fácil de entender y mantener.
+Essa divisão nos permite separar a lógica de obtenção de dados
+da lógica de visualização. Isso torna o aplicativo mais fácil de entender e manter.
 
-[👈Todos los hitos](../README.md#6-hitos)
+[👈Todos os marcos](../README.md#6-marcos)
