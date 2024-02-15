@@ -9,7 +9,19 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage test/",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve src/ -s"
+    "start": "serve src/ -s",
+    "test:e2e": "playwright test",
+    "test:oas": "jest --verbose tests-read-only/oa/",
+    "pretest:oas-html": "npm run pretest",
+    "test:oas-html": "jest --verbose tests-read-only/oa/oa-html.spec.js",
+    "test:oas-css": "jest --verbose tests-read-only/oa/oa-css.spec.js",
+    "pretest:oas-js": "npm run pretest",
+    "test:oas-js": "jest --verbose tests-read-only/oa/oa-javascript.spec.js",
+    "pretest:oas-web-api": "npm run pretest",
+    "test:oas-web-api": "jest --verbose tests-read-only/oa/oa-web-api.spec.js",
+    "pretest:oas-prompting": "npm run pretest",
+    "test:oas-prompting": "jest --verbose tests-read-only/oa/oa-prompting.spec.js",
+    "deploy": "gh-pages -d src"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -18,6 +30,7 @@
     "babel-jest": "^27.0.1",
     "css": "^3.0.0",
     "eslint": "^8.3.0",
+    "eslint-plugin-import": "^2.29.1",
     "gh-pages": "^3.1.0",
     "htmlhint": "^1.0.0",
     "jest": "^27.0.1",
