@@ -1,12 +1,94 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Dataverse Chat</title>
-    <!--Aquí puedes importar tu archivo de CSS para agregar estilos.-->
+    Aquí puedes importar tu archivo de CSS para agregar estilos.
   </head>
   <body>
     <div id="root"></div>
     <script src="index.js" type="module"></script>
   </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./img/favicon.png" type="image/png" />
+  <title>Best Movies - Dataverse Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <img class="header-image" src="./img/banner.png" alt="Header Image" />
+      <h1>Principais escolhas</h1>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <nav>
+      <div class="container__text">
+        <h2>O que assistir</h2>
+        <p>Os melhores filmes para você assistir.</p>
+        <span class="titles_length"> títulos</span>
+      </div>
+      <!-- Section Filtros -->
+      <div class="filtros">
+        <section class="section-search">
+          <label for="filters" id="search-filters" class="filters">Filtrar por:</label>
+          <select id="filters" name="search-filter" data-testid="select-filter">
+            <option value="Todos" selected hidden disabled>Gênero</option>
+            <option value="drama">Drama</option>
+            <option value="policial">Policial</option>
+            <option value="aventura">Aventura</option>
+            <option value="fantasia">Fantasia</option>
+            <option value="biografia">Biografia</option>
+            <option value="romance">Romance</option>
+            <option value="syfy">Syfy</option>
+            <option value="faroeste">Faroeste</option>
+            <option value="crime">Crime</option>
+          </select>
+          <label for="order">Ordenar por:</label>
+          <select id="order" name="sort-order" data-testid="select-sort">
+            <option value="todos" hidden disabled>★</option>
+            <option value="desc">Maior Nota</option>
+            <option value="asc">Menor Nota</option>
+
+          </select>
+
+          <button id="btn-limpar" data-testid="button-clear">
+            Limpar Filtros
+          </button>
+        </section>
+      </div>
+    </nav>
+
+    <!-- Section Cards -->
+    <section id="root">
+      <!--aqui vamos puxar os cards-->
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container__footer">
+      <div class="socialIcons">
+        <a href="https://www.github.com/" target="_blank">
+          <img id="githubIcon" src="./img/icon-github.svg" alt="Icon ordenação" />
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img id="linkedinIcon" src="./img/icon-linkedin.svg" alt="Icon ordenação" />
+        </a>
+      </div>
+      <p>dataverse-chat© 2024 Desenvolvido por Lais e Renata</p>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
