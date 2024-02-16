@@ -60,7 +60,7 @@ test.describe('Pagina interraciones', () => {
     let sortOrderEl, sortByProperty;
 
     test.beforeEach(async ({ page }) => {
-      await page.goto('http://localhost:5000/');
+      await page.goto('http://localhost:3000/');
       ({ sortOrderEl, sortByProperty } = await getSortOptions(page));
     });
 
@@ -93,7 +93,7 @@ test.describe('Pagina interraciones', () => {
     let selectFilter;
 
     test.beforeEach(async ({ page }) => {
-      await page.goto('http://localhost:5000/');
+      await page.goto('http://localhost:3000/');
       selectFilter = await page.getByTestId('select-filter');
     });
 
@@ -114,7 +114,7 @@ test.describe('Pagina interraciones', () => {
     let sortOrderEl, sortByProperty, selectFilter;
 
     test.beforeEach(async ({ page }) => {
-      await page.goto('http://localhost:5000/');
+      await page.goto('http://localhost:3000/');
 
       selectFilter = await page.getByTestId('select-filter');
       ({ sortOrderEl, sortByProperty } = await getSortOptions(page));
@@ -139,7 +139,7 @@ test.describe('Pagina interraciones', () => {
     });
 
     test('el button "button-clear" limpia los filtros y sort, volvemos a los resultados original', async ({ page }) => {
-      await page.goto('http://localhost:5000/');
+      await page.goto('http://localhost:3000/');
       const originalLis = await page.$$(liSelector);
       const select = await page.getByTestId('select-filter');
       await select.selectOption({ index: 1 });
