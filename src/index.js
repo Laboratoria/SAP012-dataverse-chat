@@ -11,9 +11,8 @@ const routes = {
 }
 */
 
-/*
-TODO:
-1.- Definir rutas en router.
-2.- Pasar "root element" a router.
-3.- Invocar el router para renderizar la vista correcta.
-*/
+
+// TODO:
+// 1.- Definir rutas en router.
+// 2.- Pasar "root element" a router.
+// 3.- Invocar el router para renderizar la vista correcta.
