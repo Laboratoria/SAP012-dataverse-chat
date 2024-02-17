@@ -19,6 +19,7 @@
 
 import Home from "./views/Home.js";
 import About from "./views/About.js";
+import {setRootEl, setRoutes, renderView} from "./router.js"
 
 const root = document.getElementById("root");
 root.appendChild(Home());
@@ -27,3 +28,7 @@ const routes = {
   "/": Home,
   "/about": About
 }
+
+setRootEl(root);
+setRoutes(routes);
+renderView(window.location.pathname);

@@ -1,7 +1,7 @@
 const Home = () => {
-  const el = document.createElement("h1");
-  el.innerHTML = "Eu sou a página inicial";
-  return el;
+  const element = document.createElement("h1");
+  element.innerHTML = "Eu sou a página inicial";
+  return element;
 }
 
 export default Home;

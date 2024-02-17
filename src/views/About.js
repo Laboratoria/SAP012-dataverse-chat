@@ -1,7 +1,7 @@
 const About = () => {
-  const el = document.createElement("h1");
-  el.innerHTML = "About";
-  return el;
+  const element = document.createElement("h1");
+  element.innerHTML = "About";
+  return element;
 }
 
 
