@@ -1,5 +1,8 @@
-const about = () => {
+const About = () => {
+  const el = document.createElement("h1");
+  el.innerHTML = "About";
+  return el;
+}
 
-};
 
-export default about;
+export default About;
