@@ -20,13 +20,15 @@
 import Home from "./views/Home.js";
 import About from "./views/About.js";
 import {setRootEl, setRoutes, renderView} from "./router.js"
+import errorView from "./views/error.js";
 
 const root = document.getElementById("root");
 root.appendChild(Home());
 
 const routes = {
   "/": Home,
-  "/about": About
+  "/about": About,
+  "/error": errorView
 }
 
 setRootEl(root);
