@@ -1,18 +1,43 @@
-// En este archivo definirás tus rutas e importarás los componentes que vas a renderizar.
-
-/*
-import Example from './views/Example.js';
-
-Ejemplo de definición de rutas:
+import home from "./views/Home.js";
+import chat from "./views/Chat.js";
+import chatGroup from "./views/ChatGroup.js";
+import errorView from "./views/Error.js";
+import { setRootEl, setRoutes, onURLChange, navigateTo } from "./router.js"
 
 const routes = {
-    "/": Example,
-    ...
+  "/": home,
+  "/chat": chat,
+  "/chatGroup": chatGroup,
+  "/error": errorView
 }
-*/
+
+//seletor
+const root = document.getElementById("root");
+const link = document.getElementById("link")
+
+//Listerner
+link.addEventListener('click', () => {
+  let pathname = "/"
+  if (window.location.pathname === "/") {
+    pathname = "/chat"
+  }else if (window.location.pathname === "/chat") {
+    pathname = "/chatGroup"
+  }else {
+    pathname = "/"
+  }
+  // alert("Alerta")
+  navigateTo(pathname)
+});
+
+window.addEventListener('popstate', () => {
+  onURLChange(window.location);
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  setRootEl(root);
+  onURLChange(window.location);
+});
 
 
-// TODO:
-// 1.- Definir rutas en router.
-// 2.- Pasar "root element" a router.
-// 3.- Invocar el router para renderizar la vista correcta.
+//chamando as funções
+setRoutes(routes);
