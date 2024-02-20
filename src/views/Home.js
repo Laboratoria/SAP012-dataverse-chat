@@ -13,6 +13,7 @@ import data  from '../data/dataset.js';
 
 export function Home(props) {
   const viewEl = document.createElement('div');
+  viewEl.appendChild(renderSubTitle())
   viewEl.appendChild(renderFilter())
   viewEl.appendChild(renderItems(data))
   return viewEl;
@@ -81,4 +82,17 @@ export const renderFilter = () => {
       `;
 
   return divFilter;
+};
+
+export const renderSubTitle = () => {
+  const divSubTitle = document.createElement('div');
+  divSubTitle .classList.add('container__text');
+
+  divSubTitle.innerHTML += `
+      <h1>Principais escolhas</h1>
+      <h2>O que assistir</h2>
+      <p>Os melhores filmes para você assistir.</p>
+      `;
+
+  return divSubTitle;
 };
