@@ -92,6 +92,7 @@ export const renderSubTitle = () => {
       <h1>Principais escolhas</h1>
       <h2>O que assistir</h2>
       <p>Os melhores filmes para você assistir.</p>
+      <span class="titles_length"> títulos</span>
       `;
 
   return divSubTitle;
