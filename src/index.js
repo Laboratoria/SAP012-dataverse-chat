@@ -1,33 +1,33 @@
-import home from "./views/Home.js";
-import chat from "./views/Chat.js";
-import chatGroup from "./views/ChatGroup.js";
-import errorView from "./views/Error.js";
-import { setRootEl, setRoutes, onURLChange, navigateTo } from "./router.js"
+import Home from "./views/Home.js";
+import Chat from "./views/Chat.js";
+import ChatGroup from "./views/ChatGroup.js";
+import ErrorView from "./views/Error.js";
+import { setRootEl, setRoutes, onURLChange } from "./router.js"
 
 const routes = {
-  "/": home,
-  "/chat": chat,
-  "/chatGroup": chatGroup,
-  "/error": errorView
+  "/": Home,
+  "/chat": Chat,
+  "/chatGroup": ChatGroup,
+  "/error": ErrorView
 }
 
 //seletor
 const root = document.getElementById("root");
-const link = document.getElementById("link")
+// const link = document.getElementById("link")
 
 //Listerner
-link.addEventListener('click', () => {
-  let pathname = "/"
-  if (window.location.pathname === "/") {
-    pathname = "/chat"
-  }else if (window.location.pathname === "/chat") {
-    pathname = "/chatGroup"
-  }else {
-    pathname = "/"
-  }
-  // alert("Alerta")
-  navigateTo(pathname)
-});
+// link.addEventListener('click', () => {
+//   let pathname = "/"
+//   if (window.location.pathname === "/") {
+//     pathname = "/chat"
+//   }else if (window.location.pathname === "/chat") {
+//     pathname = "/chatGroup"
+//   }else {
+//     pathname = "/"
+//   }
+//   // alert("Alerta")
+//   navigateTo(pathname)
+// });
 
 window.addEventListener('popstate', () => {
   onURLChange(window.location);
