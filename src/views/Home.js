@@ -1,7 +1,7 @@
-const Home = () => {
-  const element = document.createElement("h1");
-  element.innerHTML = "Eu sou a página inicial";
+export const home = (props) => {
+  const element = document.createElement('div');
+  element.textContent = `Bem vindo a página de início ${props.name}!`;
   return element;
 }
+export default home;
 
-export default Home;

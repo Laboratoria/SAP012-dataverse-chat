@@ -1,6 +1,7 @@
 let ROUTES = {};
 let rootEl;
 
+//função iniciada com SET faz atribuição de valor
 export const setRootEl = (element) => {
   rootEl = element;
 };
@@ -9,18 +10,28 @@ export const setRoutes = (routes) => {
   ROUTES = routes
 };
 
-export const renderView = (pathname, props) => {
+const queryStringToObject = (props) => {
+  const urlParams = new URLSearchParams (props);
+  return Object.fromEntries(urlParams)
+};
+
+export const renderView = (pathname, props = {name: " ", id: " "}) => {
   rootEl.textContent = ""
-  const routeFunc = ROUTES[pathname]
-  console.log(pathname)
-  const element = routeFunc();
+  let routeFunc = ROUTES[pathname]
+  if (!routeFunc) {
+    routeFunc = ROUTES["/error"]
+  }
+
+  const params = queryStringToObject(props)
+  const element = routeFunc(params);
   rootEl.appendChild(element);
 };
 
+export const navigateTo = (pathname = "/", props = { name: " ", id: " "}) => {
+  window.history.pushState(null, null, pathname);
+  renderView(pathname, props);
+};
 
-
-// laranja = parametro
-// verde = função
-// rosa = palavras reservadas da linguagem
-// branca = varaveis
-// roxa = constante
+export const onURLChange = (location) => {
+  renderView(location.pathname, location.search);
+};
