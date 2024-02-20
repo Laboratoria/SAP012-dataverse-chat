@@ -232,6 +232,7 @@ button {
   font-weight: bold;
   width: max-content;
   margin: 10px 0;
+  align-items: center;
 }
 
 #btn-limpar {

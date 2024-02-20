@@ -73,11 +73,11 @@ export const renderFilter = () => {
             <option value="desc">Maior Nota</option>
             <option value="asc">Menor Nota</option>
         </select>
-      </section>
 
-      <button id="btn-limpar" data-testid="button-clear">
-        Limpar Filtros
-      </button>
+        <button id="btn-limpar" data-testid="button-clear">Limpar Filtros</button>
+    </section>
+
+
       `;
 
   return divFilter;
