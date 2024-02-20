@@ -5,10 +5,8 @@
 // }
 
 
-
 import data  from '../data/dataset.js';
 // import { renderView } from '../router';
-
 // import { filterData } from '../lib/dataFunctions.js';
 
 export function Home(props) {
