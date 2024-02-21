@@ -5,7 +5,7 @@ Bem-vinda ao primeiro marco do seu aprendizado em JavaScript através de projeto
 ## Tarefas deste marco
 
 - [Protótipo de Dataverse](#prototipo-de-dataverse)
-- [Criação de Visualizações da SPA](#criação-de-visualizações-da-spa)
+- [SPA parte 1](#spa-parte-1)
 
 ### Protótipo de Dataverse
 
@@ -16,13 +16,65 @@ Projete as visualizações da página inicial, onde serão apresentados os eleme
 > [!TIP]
 > Use a identidade visual ou o protótipo do seu projeto anterior.
 
-### Criação de Visualizações da SPA
+### SPA parte 1
 
-1. Seguindo este [guia](https://github.com/Laboratoria/curriculum/blob/main/guides/router-spa/README.pt.md), vá até a pasta `views`.
-2. Crie dois arquivos: `Home.js` e `About.js`, cada um desses arquivos representará uma visualização.
-3. Dentro de cada arquivo, adicione pelo menos um elemento ou texto representativo da visualização correspondente.
+O propósito principal deste marco é permitir que você desenvolva
+uma **SPA (Single Page Application)**. Em poucas palavras, a ideia
+é que, por meio do JavaScript, você possa modificar o conteúdo do
+seu navegador de forma semelhante a alternar entre diferentes
+visualizações. Cada uma dessas visualizações estaria associada a uma URL,
+o que significa que não apenas o conteúdo seria alterado,
+como também o endereço na barra de endereços do
+seu navegador. Para obter informações sobre o que é uma SPA e
+conhecer todos os seus detalhes, convidamos você a visitar este
+[guia](https://github.com/Laboratoria/guide-router/tree/guide-v1).
 
-![Pré-visualização spa](./assets/previewSPA.gif)
+2. Criar a vista **Home.js**
+
+   Define `Home.js` na pasta `src/views` e,
+   em seu interior, crie uma função encarregada de
+   gerar o conteúdo da vista. Esta função
+   deve retornar um elemento DOM para que possa ser
+   utilizado pelo router. [Aqui](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#1-configura-su-estructura-html)
+   você pode consultar o exemplo de duas funções,
+   cada uma representando uma vista.
+
+   **Nota 📝: É comum que você precise repetir este processo para
+   cada uma das vistas que você precisar durante o
+   desenvolvimento**
+
+3. Codifique o router
+
+    Para vincular as rotas e vistas em uma
+    aplicação, precisaremos definir algumas
+    funções em um novo arquivo `src/router.js`.
+    Essas funções ajudarão a controlar a
+    navegação entre páginas. Veja a seção
+    [Codifique o roteador](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#3-codifique-el-router)
+    do guia, onde você encontrará seis funções. Para o
+    propósito deste marco, recomendamos utilizar
+    quatro delas: `setRootEl`, `setRoutes`,
+    `renderView` e `onURLChange`.
+
+    **Nota 📝:
+    Para obter mais informações sobre o funcionamento
+    e uso de cada uma das funções, consulte
+    [esta seção do guia](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
+
+4. Configure o router
+
+    No seu arquivo `src/index.js`, inicialize o seu roteador definindo
+    suas rotas e configurando o elemento raiz conforme mostrado
+    no [guia](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#4-configura-el-router).
+
+5. Gerencie o carregamento da página inicial
+
+    Certifique-se de [gerenciar o carregamento](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#5-manejar-la-carga-de-la-primera-p%C3%A1gina)
+    da página
+    inicial chamando `onURLChange` com
+    `window.location` no arquivo `src/index.js`.
+    Teste para garantir que, independentemente da URL
+    válida utilizada para iniciar sua SPA, **a vista correta** seja carregada adequadamente.
 
 ## Precisa de Ajuda?
 

@@ -92,12 +92,23 @@ com os elementos do conjunto de dados. Você pode incluir componentes como botõ
 formulários ou qualquer outro elemento necessário para alcançar o objetivo específico
 da sua aplicação.
 
-3. Certifique-se de que esta visualização seja capaz de receber um identificador (id)
+3. Nesta tela, é necessário obter um identificador (id)
 ou outros dados necessários para mostrar o elemento específico do conjunto
-de dados. Você pode conseguir isso usando parâmetros, como por
-exemplo através dos
-[search params](https://developer.mozilla.org/pt-BR/docs/Web/API/URLSearchParams)
-da URL que o router pode comunicar.
+de dados. Isso é fundamental para que você possa
+identificar com quem deseja conversar no aplicativo.
+Você pode obter este identificador (id) de duas maneiras:
+incluir como argumento (props) na função que o levará
+a esta vista ou receber os dados como
+[parâmetros de pesquisa](https://developer.mozilla.org/es/docs/Web/API/URLSearchParams).
+Portanto, é importante melhorar as capacidades do seu
+roteador para lidar com ambas as situações.
+
+    + No arquivo `src/router.js`, adicione as funções
+    `navigateTo` e `queryStringToObject`.
+
+    **Nota 📝:
+    Para obter detalhes das funções, consulte
+    [esta seção do guia](https://github.com/Laboratoria/guide-router/tree/guide-v1?tab=readme-ov-file#api-de-router-b%C3%A1sico).**
 
 ![Preview Detail](./assets/previewDetail.gif)
 
