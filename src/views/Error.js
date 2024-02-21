@@ -1,6 +1,10 @@
 export function errorView(props) {
   const element = document.createElement('div');
-  element.textContent = `Error page ${props.name}`;
+  const image = document.createElement('img');
+  image.src = '../assets/imgError.jpeg';
+  image.alt = `Imagem de erro para ${props.img}`;
+  element.appendChild(image);
+
   return element;
 }
 
