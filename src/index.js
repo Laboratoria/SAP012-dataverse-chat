@@ -1,6 +1,6 @@
 import Home from "./views/Home.js";
-import Chat from "./views/Chat.js";
-import ChatGroup from "./views/ChatGroup.js";
+import Chat from "./components/Chat.js";
+import ChatGroup from "./components/ChatGroup.js";
 import ErrorView from "./views/Error.js";
 import { setRootEl, setRoutes, onURLChange } from "./router.js"
 
