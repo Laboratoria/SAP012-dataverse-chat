@@ -6,6 +6,7 @@
 
 
 import data  from '../data/dataset.js';
+// import About from './About.js'
 // import { renderView } from '../router';
 // import { filterData } from '../lib/dataFunctions.js';
 
@@ -18,6 +19,7 @@ export function Home(props) {
 }
 
 export default Home;
+
 
 export const renderItems = (data) => {
   const ul = document.createElement('ul');
@@ -91,6 +93,7 @@ export const renderSubTitle = () => {
       <h2>O que assistir</h2>
       <p>Os melhores filmes para você assistir.</p>
       <span class="titles_length"> títulos</span>
+      <button type="button">Key API</button>
       `;
 
   return divSubTitle;
