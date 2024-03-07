@@ -8,7 +8,7 @@ export default [
     "persona-name": "Sofia Oliveira",
     "persona": "Sou organizada, analítica e comprometida com a segurança dos dados. Nas horas vagas, gosto de praticar esportes ao ar livre e explorar novos destinos.", 
     "about-me": "Sou uma administradora de banco de dados dedicada a projetar, implementar e manter sistemas de gerenciamento de banco de dados. Tenho experiência em otimizar o desempenho do banco de dados, garantir a segurança dos dados e realizar backups e restaurações. Sou detalhista, analítica e estou sempre em busca de novas soluções para melhorar a eficiência dos bancos de dados. Nas horas vagas, gosto de estudar novas tecnologias e participar de fóruns da comunidade de bancos de dados.",   
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/admBancoDeDados.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/admBancoDeDados.jpg",
     "facts": {
       "formacaoSugerida": "Ciência da Computação, Sistemas de Informação",
       "techSkills": "SQL, Administração de Bancos de Dados",
@@ -26,7 +26,7 @@ export default [
     "persona-name": "Gabriela Silva",
     "persona": "Sou curiosa, orientada a dados e sempre em busca de novos desafios. Adoro passar tempo ao ar livre e explorar a natureza nas minhas horas vagas.",
     "about-me": "Sou uma analista de business intelligence (BI) apaixonada por transformar dados em insights acionáveis. Tenho experiência em coletar, analisar e visualizar dados para apoiar a tomada de decisões estratégicas. Sou curiosa, analítica e estou sempre em busca de novos desafios. Nas horas vagas, gosto de explorar novas técnicas de análise de dados e participar de eventos da comunidade de BI.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Analista%20de%20Business%20Intelligence.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Analista%20de%20Business%20Intelligence.jpg",
     "facts": {
       "formacaoSugerida": "Estatística, Matemática",
       "techSkills": "SQL, Power BI, Tableau",
@@ -44,7 +44,7 @@ export default [
     "persona-name": "Laura Mendes",
     "persona": "Sou proativa, dedicada e apaixonada por resolver problemas. Nas horas vagas, gosto de tocar instrumentos musicais e passar tempo com amigos e família.",
     "about-me": "Sou uma analista de infraestrutura de TI dedicada a projetar e implementar soluções de infraestrutura robustas e escaláveis. Tenho experiência em gerenciar servidores, redes e serviços em nuvem. Sou detalhista, proativa e estou sempre em busca de novos conhecimentos. Nas horas vagas, gosto de praticar esportes e explorar novas trilhas na natureza.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Analista%20de%20Infraestrutura%20de%20TI.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Analista%20de%20Infraestrutura%20de%20TI.jpg",
     "facts": {
       "formacaoSugerida": "Redes de Computadores, Engenharia de Redes",
       "techSkills": "Administração de servidores, Redes",
@@ -62,7 +62,7 @@ export default [
     "persona-name": "Luiza Almeida",
     "persona": "Sou meticulosa, detalhista e comprometida com a qualidade. Nas horas vagas, gosto de ler livros de ficção científica e experimentar novas receitas na cozinha.",
     "about-me": "Sou uma analista de qualidade de software comprometida em garantir a qualidade e a eficiência de produtos de software. Tenho experiência em realizar testes de software, identificar e relatar bugs e coordenar atividades de garantia de qualidade. Sou detalhista, paciente e estou sempre em busca de soluções inovadoras. Nas horas vagas, gosto de ler sobre novas técnicas de teste de software e participar de eventos da comunidade de QA.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Analista%20de%20Qualidade%20de%20Software.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Analista%20de%20Qualidade%20de%20Software.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "Testes de software, Automação",
@@ -80,7 +80,7 @@ export default [
     "persona-name": "Isabela Santos",
     "persona": "Sou determinada, vigilante e apaixonada por tecnologia. Nas horas vagas, gosto de praticar esportes radicais e explorar novos destinos de viagem.",
     "about-me": "Sou uma analista de segurança da informação dedicada a proteger sistemas e dados contra ameaças cibernéticas. Tenho experiência em realizar avaliações de segurança, implementar controles de acesso e responder a incidentes de segurança. Sou vigilante, analítica e estou sempre atualizada com as últimas tendências em segurança cibernética. Nas horas vagas, gosto de praticar artes marciais e participar de competições de hacking ético.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Analista%20de%20Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Analista%20de%20Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o.jpg",
     "facts": {
       "formacaoSugerida": "Segurança da Informação, Ciência da Computação",
       "techSkills": "Firewalls, Criptografia",
@@ -98,7 +98,7 @@ export default [
     "persona-name": "Thais Oliveira",
     "persona": "Sou analítica, criativa e sempre em busca de soluções. Nas horas vagas, gosto de praticar ioga e meditar para recarregar as energias.",
     "about-me": "Sou uma analista de sistemas apaixonada por resolver problemas complexos e desenvolver soluções inovadoras de software. Tenho experiência em analisar requisitos de negócios, projetar arquiteturas de sistemas e implementar soluções escaláveis. Sou analítica, criativa e estou sempre em busca de novos desafios. Nas horas vagas, gosto de praticar esportes e explorar novas tecnologias.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Analista%20de%20Sistemas.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Analista%20de%20Sistemas.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "Análise de sistemas, Programação",
@@ -116,7 +116,7 @@ export default [
     "persona-name": "Marina Lima",
     "persona": "Sou versátil, colaborativa e apaixonada por tecnologia. Nas horas vagas, gosto de tocar violão e explorar novos lugares com amigos.",
     "about-me": "Sou uma desenvolvedora full stack apaixonada por criar soluções de software completas e funcionais. Tenho experiência em desenvolver tanto o frontend quanto o backend de aplicações web. Sou detalhista, determinada e estou sempre em busca de melhorias contínuas. Nas horas vagas, gosto de contribuir para projetos de código aberto e participar de hackathons.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Full%20Stack.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Full%20Stack.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "JavaScript, Node.js, HTML, CSS",
@@ -134,7 +134,7 @@ export default [
     "persona-name": "Paula Rodrigues",
     "persona": "Sou apaixonada, criativa e sempre em busca de desafios. Nas horas vagas, gosto de fotografar paisagens urbanas e experimentar novas receitas na cozinha.",
     "about-me": "Sou uma desenvolvedora mobile (iOS/Android) dedicada a criar aplicativos móveis de alta qualidade e desempenho. Tenho experiência em desenvolver aplicativos para as plataformas iOS e Android, utilizando as mais recentes tecnologias e práticas de desenvolvimento móvel. Sou criativa, dedicada e estou sempre em busca de novos desafios. Nas horas vagas, gosto de explorar novas APIs e frameworks móveis e participar de grupos de desenvolvedores.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Mobile.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Mobile.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "Swift (iOS), Kotlin/Java (Android)",
@@ -153,7 +153,7 @@ export default [
     "persona-name": "Julia Costa",
     "persona": "Sou dedicada, autodidata e apaixonada por aprender. Nas horas vagas, gosto de praticar esportes ao ar livre e ler sobre novas tecnologias.",
     "about-me": "Sou uma desenvolvedora web back-end apaixonada por criar sistemas robustos e escaláveis. Tenho experiência em desenvolver APIs, integrar sistemas e gerenciar bancos de dados. Sou analítica, determinada e estou sempre em busca de soluções eficientes. Nas horas vagas, gosto de contribuir para projetos de código aberto e participar de eventos da comunidade de desenvolvedores.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Back%20end.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Back%20end.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "Node.js, Python, Java",
@@ -171,7 +171,7 @@ export default [
     "persona-name": "Amanda Ferreira",
     "persona": "Sou criativa, detalhista e apaixonada por design. Nas horas vagas, gosto de desenhar e criar arte digital.",
     "about-me": "Sou uma desenvolvedora web front-end dedicada a criar interfaces de usuário interativas e envolventes. Tenho experiência em desenvolver interfaces responsivas, utilizando as mais recentes tecnologias e frameworks front-end. Sou criativa, detalhista e estou sempre em busca de novas técnicas de design e desenvolvimento. Nas horas vagas, gosto de explorar novas tendências de design e participar de hackathons de frontend.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Front%20end.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Desenvolvedora%20Front%20end.jpg",
     "facts": {
       "formacaoSugerida": "Design de Interface, Engenharia de Software",
       "techSkills": "HTML, CSS, JavaScript, React",
@@ -189,7 +189,7 @@ export default [
     "persona-name": "Laura Oliveira",
     "persona": "Sou criativa, adoro desafios, meu passatempo favorito é andar de skate e adoro cozinhar. Acredito que a acessibilidade é o caminho para uma sociedade mais equitativa.",
     "about-me": "Sou uma designer de experiência do usuário (UX) apaixonada por criar experiências digitais intuitivas e atraentes. Tenho experiência em realizar pesquisas de usuário, criar wireframes e protótipos, e colaborar com equipes multidisciplinares para desenvolver produtos centrados no usuário. Sou criativa, detalhista e estou sempre em busca de novas inspirações. Nas horas vagas, gosto de visitar museus de arte e explorar novos conceitos de design.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Design%20de%20%20Experi%C3%AAncia%20do%20Usu%C3%A1rio%20(UX).jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Design%20de%20%20Experi%C3%AAncia%20do%20Usu%C3%A1rio%20(UX).jpg",
     "facts": {
       "formacaoSugerida": "Design de Interface, Design Gráfico",
       "techSkills": "Wireframing, Prototipagem, Ferramentas de design",
@@ -207,7 +207,7 @@ export default [
     "persona-name": "Clara Santos",
     "persona": "Sou apaixonada por arte, design e tecnologia. Nas horas vagas, gosto de pintar telas e explorar novas galerias de arte. Acredito no poder do design para impactar positivamente a vida das pessoas.",
     "about-me": "Sou uma designer de interface do usuário (UI) dedicada a criar interfaces visualmente atraentes e funcionais. Tenho experiência em criar layouts, ícones e elementos visuais, e em colaborar com equipes de desenvolvimento para implementar designs de alta qualidade. Sou criativa, detalhista e estou sempre em busca de novas tendências de design. Nas horas vagas, gosto de desenhar e explorar novas técnicas de design.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Designer%20de%20Interface%20do%20Usu%C3%A1rio%20(UI).jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Designer%20de%20Interface%20do%20Usu%C3%A1rio%20(UI).jpg",
     "facts": {
       "formacaoSugerida": "Design de Interface, Design Gráfico",
       "techSkills": "Design visual, Ferramentas de design, Prototipagem",
@@ -225,7 +225,7 @@ export default [
     "persona-name": "Ana Silva",
     "persona": "Sou apaixonada por tecnologia, curiosa e sempre em busca de desafios. Nas horas vagas, gosto de praticar esportes ao ar livre e explorar trilhas na natureza.",
     "about-me": "Sou uma engenheira de firmware especializada no desenvolvimento de software de baixo nível para dispositivos eletrônicos. Tenho experiência em programação em linguagens como C e Assembly, projetando firmware que controla hardware específico. Colaboro com equipes de engenharia de hardware para projetar e otimizar sistemas embarcados. Sou detalhista, analítica e estou sempre em busca de soluções para garantir a estabilidade e o desempenho dos dispositivos eletrônicos. Nas horas vagas, gosto de explorar novas tecnologias e participar de projetos de eletrônica DIY.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Firmware.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Firmware.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia Elétrica, Engenharia de Computação",
       "techSkills": "Programação C, Assembly, Sistemas Embarcados",
@@ -243,7 +243,7 @@ export default [
     "persona-name": "Beatriz Oliveira",
     "persona": "Sou curiosa, apaixonada por tecnologia e sempre em busca de conhecimento. Nas horas vagas, gosto de ler sobre ciência e explorar novas tecnologias.",
     "about-me": "Sou uma engenheira de inteligência artificial (IA) apaixonada por desenvolver sistemas e aplicações inteligentes. Tenho experiência em trabalhar com algoritmos de IA, aprendizado de máquina e processamento de linguagem natural para criar soluções inovadoras. Colaboro com equipes de cientistas de dados e desenvolvedores para criar sistemas autônomos e preditivos. Sou curiosa, analítica e estou sempre em busca de novos desafios na área de IA. Nas horas vagas, gosto de participar de competições de ciência de dados e explorar novas técnicas de aprendizado de máquina.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Intelig%C3%AAncia%20Artificial.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Intelig%C3%AAncia%20Artificial.jpg",
     "facts": {
       "formacaoSugerida": "Ciência da Computação, Engenharia de Computação",
       "techSkills": "Machine Learning, Deep Learning, NLP",
@@ -261,7 +261,7 @@ export default [
     "persona-name": "Sophia Lima",
     "persona": "Sou apaixonada por matemática, analítica e sempre em busca de desafios. Nas horas vagas, gosto de praticar esportes e explorar novos destinos de viagem.",
     "about-me": "Sou uma engenheira de machine learning dedicada a desenvolver e implementar algoritmos de aprendizado de máquina para resolver problemas complexos. Tenho experiência em trabalhar com diversas técnicas de machine learning, como regressão, classificação e clustering. Colaboro com equipes de cientistas de dados e engenheiros de software para criar modelos de ML escaláveis e precisos. Sou apaixonada por explorar novos conjuntos de dados e encontrar insights úteis. Nas horas vagas, gosto de participar de competições de machine learning e contribuir para projetos de código aberto na área.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Machine%20Learning.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Machine%20Learning.jpg",
     "facts": {
       "formacaoSugerida": "Ciência da Computação, Engenharia de Computação",
       "techSkills": "Machine Learning, Python, Frameworks de ML",
@@ -279,7 +279,7 @@ export default [
     "persona-name": "Lara Almeida",
     "persona": "Sou apaixonada por tecnologia, criativa e sempre em busca de novos desafios. Nas horas vagas, gosto de tocar piano e explorar novas técnicas de arte digital.",
     "about-me":"Sou uma engenheira de Realidade Virtual (VR) / Aumentada (AR) apaixonada por criar experiências imersivas e interativas. Tenho experiência em utilizar tecnologias como Unity e Unreal Engine para desenvolver aplicações de VR / AR que proporcionam experiências únicas aos usuários. Colaboro com designers e artistas para criar ambientes virtuais envolventes e realistas. Sou detalhista, criativa e estou sempre em busca de novas formas de utilizar a tecnologia para criar experiências impactantes. Nas horas vagas, gosto de explorar novos conceitos de interação e participar de projetos de realidade virtual e aumentada.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Realidade%20Virtual%20(VR)%20%20Aumentada%20(AR).jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Realidade%20Virtual%20(VR)%20%20Aumentada%20(AR).jpg",
     "facts": {
       "formacaoSugerida": "Design de Jogos, Engenharia de Computação",
       "techSkills": "Unity, Unreal Engine, Desenvolvimento VR/AR",
@@ -297,7 +297,7 @@ export default [
     "persona-name": "Manuela Costa",
     "persona": "Sou dedicada, analítica e sempre em busca de soluções. Nas horas vagas, gosto de praticar esportes ao ar livre e ler sobre novas tecnologias.",
     "about-me":"Sou uma engenheira de software dedicada a projetar, desenvolver e testar aplicações robustas e inovadoras. Tenho ampla experiência em trabalhar com diversas tecnologias e linguagens de programação para criar soluções escaláveis e eficientes. Colaboro com equipes multidisciplinares para garantir a entrega bem-sucedida de projetos, seguindo boas práticas de desenvolvimento e garantindo a qualidade do código. Sou apaixonada por resolver problemas complexos e estou sempre em busca de novos desafios na área de tecnologia. Nas horas vagas, gosto de participar de comunidades de desenvolvedores e contribuir para projetos de código aberto.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Software.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Engenheira%20de%20Software.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "Programação, Desenvolvimento de Software",
@@ -315,7 +315,7 @@ export default [
     "persona-name": "Isabela Santos",
     "persona": "Sou determinada, vigilante e apaixonada por tecnologia. Nas horas vagas, gosto de praticar esportes radicais e explorar novos destinos de viagem.",
     "about-me": "Sou uma especialista em Automatização de Processos (RPA) dedicada a automatizar tarefas rotineiras e processos repetitivos utilizando ferramentas como UiPath, Automation Anywhere e Blue Prism. Colaboro com diferentes áreas para identificar oportunidades de automação e implementar soluções eficientes, contribuindo para aumentar a produtividade e reduzir erros em operações empresariais. Sou detalhista, analítica e estou sempre em busca de novas maneiras de otimizar processos por meio da tecnologia. Nas horas vagas, gosto de estudar novas técnicas de automação e participar de comunidades de profissionais de RPA.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Especialista%20em%20Automatiza%C3%A7%C3%A3o%20de%20Processos%20de%20Automa%C3%A7%C3%A3o.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Especialista%20em%20Automatiza%C3%A7%C3%A3o%20de%20Processos%20de%20Automa%C3%A7%C3%A3o.jpg",
     "facts": {
       "formacaoSugerida": "Ciência da Computação, Engenharia de Computação",
       "techSkills": "UiPath, Automation Anywhere, Blue Prism",
@@ -333,7 +333,7 @@ export default [
     "persona-name": "Gabriela Lima",
     "persona": "Sou apaixonada por tecnologia, proativa e sempre em busca de desafios. Nas horas vagas, gosto de praticar yoga e explorar novas trilhas na natureza.",
     "about=me": "Sou uma especialista em Cloud Computing dedicada a projetar, implementar e gerenciar soluções em nuvem. Tenho experiência em plataformas como AWS, Azure e Google Cloud, ajudando empresas a migrar para a nuvem e a otimizar sua infraestrutura. Sou analítica, determinada e estou sempre em busca de novas oportunidades de aprendizado. Nas horas vagas, gosto de ler sobre as últimas tendências em cloud computing e participar de eventos da comunidade de tecnologia.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Especialista%20em%20Cloud%20Computing.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Especialista%20em%20Cloud%20Computing.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Computação, Ciência da Computação",
       "techSkills": "AWS, Azure, Google Cloud",
@@ -351,7 +351,7 @@ export default [
     "persona-name": "Maria Oliveira",
     "persona": "Sou apaixonada por jogos, criativa e sempre em busca de novos desafios. Nas horas vagas, gosto de tocar violão e explorar novos jogos indie.",
     "about-me":"Sou uma desenvolvedora de jogos apaixonada por criar experiências interativas e envolventes para os jogadores. Tenho experiência em programação e implementação de elementos visuais utilizando engines como Unity e Unreal Engine. Colaboro com designers, artistas e profissionais de áudio para criar mundos virtuais únicos. Sou criativa, determinada e estou sempre em busca de novas técnicas para aprimorar meus jogos. Nas horas vagas, gosto de jogar videogames e participar de game jams.",
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Desenvolvedora%20de%20Jogos.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Desenvolvedora%20de%20Jogos.jpg",
     "facts": {
       "formacaoSugerida": "Design de Jogos, Engenharia de Computação",
       "techSkills": "Unity, Unreal Engine, Programação de Jogos",
@@ -369,7 +369,7 @@ export default [
     "persona-name": "Daniela Silva",
     "persona": "Sou determinada, resiliente e apaixonada por tecnologia. Nas horas vagas, gosto de praticar esportes ao ar livre e explorar novas trilhas na natureza.",
     "about=me": "Sou uma engenheira de DevOps dedicada a integrar eficientemente o desenvolvimento e as operações de software. Automatizo processos, implemento práticas de entrega contínua e gerencio infraestruturas como código. Colaboro com desenvolvedores e administradores de sistemas para otimizar a eficiência, a confiabilidade e a escalabilidade de sistemas e aplicações. Sou analítica, pró-ativa e estou sempre em busca de novas tecnologias e metodologias para melhorar a entrega de software de alta qualidade",  
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Engenheira%20Devops.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Engenheira%20Devops.jpg",
     "facts": {
       "formacaoSugerida": "Engenharia de Software, Ciência da Computação",
       "techSkills": "CI/CD, Docker, Kubernetes",
@@ -387,7 +387,7 @@ export default [
     "persona-name": "Camila Santos",
     "persona": "Sou comunicativa, organizada e apaixonada por liderança. Nas horas vagas, gosto de praticar ioga e explorar novos destinos de viagem.",
     "about-me": "Sou uma project manager dedicada a liderar e coordenar projetos de tecnologia, garantindo sua entrega dentro do prazo e orçamento. Defino metas, alocando recursos, gerenciando prazos e garantindo a entrega bem-sucedida de projetos. Colaboro com equipes multidisciplinares, mantendo o foco na eficiência e qualidade, assegurando que os objetivos do projeto sejam alcançados. Sou comunicativa, organizada e estou sempre em busca de novas oportunidades para desenvolver minhas habilidades de liderança.",  
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Project%20Manager.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Project%20Manager.jpg",
     "facts": {
       "formacaoSugerida": "Administração, Engenharia de Produção",
       "techSkills": "Gestão de Projetos, Comunicação, Liderança",
@@ -405,7 +405,7 @@ export default [
     "persona-name": "Amanda Oliveira",
     "persona": "Sou determinada, criativa e apaixonada por inovação. Nas horas vagas, gosto de explorar novos restaurantes e praticar fotografia.",
     "about-me": "Sou uma product owner dedicada a representar os interesses dos clientes e stakeholders na criação de produtos de alta qualidade. Tenho experiência em definir e priorizar requisitos, colaborando com equipes multidisciplinares para garantir o desenvolvimento de produtos que atendam às necessidades do mercado. Sou proativa, analítica e estou sempre em busca de novas oportunidades para melhorar a experiência do usuário e agregar valor aos produtos. Nas horas vagas, gosto de acompanhar as tendências do mercado e explorar novas ideias para produtos inovadores.",  
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Product%20Owner.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Product%20Owner.jpg",
     "facts": {
       "formacaoSugerida": "Administração, Marketing, Engenharia de Produção",
       "techSkills": "Gestão de Produtos, Priorização, Comunicação",
@@ -423,7 +423,7 @@ export default [
     "persona-name": "Isabela Costa",
     "persona": "Sou analítica, visionária e apaixonada por inovação. Nas horas vagas, gosto de ler sobre novas tendências de tecnologia e viajar para destinos exóticos.",
     "about-me": "Sou uma product manager apaixonada por liderar equipes na criação de produtos inovadores e de sucesso. Tenho experiência em definir estratégias de produto, priorizar requisitos e gerenciar o ciclo de vida do produto. Colaboro com equipes de desenvolvimento, design e marketing para garantir que os produtos atendam às necessidades dos clientes e do mercado. Sou analítica, comunicativa e estou sempre em busca de novas oportunidades para impulsionar a inovação e o crescimento dos produtos.",  
-    "imageUrl": "https://github.com/FabineSpecian/SAP012-dataverse/blob/main/src/assets/imagesCarreirasTech/Product%20Manager.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/camilasukhada/SAP012-dataverse-chat/main/src/assets/imagesCarreirasTech/Product%20Manager.jpg",
     "facts": {
       "formacaoSugerida": "Administração, Marketing, Engenharia de Produção",
       "techSkills": "Gestão de Produtos, Liderança, Visão estratégica",
