@@ -1,19 +1,21 @@
-// En este archivo definirás tus rutas e importarás los componentes que vas a renderizar.
+import { setRootEl, setRoutes, onURLChange } from './router.js';
+import { homeContent } from 'Home.js';
+import { renderFooter } from './components/footer/index.js';
 
-/*
-import Example from './views/Example.js';
+document.addEventListener('DOMContentLoaded', () => {
+    const root = document.getElementById('root');
+    const footer = document.querySelector("footer");
+   footer.appendChild (renderFooter());
+   renderFooter();
 
-Ejemplo de definición de rutas:
+    setRootEl(root);
 
-const routes = {
-    "/": Example,
-    ...
-}
-*/
+    
+    setRoutes({
+        '/': homeContent
+        
+    });
 
-/*
-TODO:
-1.- Definir rutas en router.
-2.- Pasar "root element" a router.
-3.- Invocar el router para renderizar la vista correcta.
-*/
+    
+    onURLChange();
+});
