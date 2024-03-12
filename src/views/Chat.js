@@ -1,7 +1,6 @@
-const Chat = () => {
-    const el = document.createElement("h1");
-    el.innerHTML = "Eu sou o Chat";
-    return el;
-  }
+export const Chat = () => {
+  const el = document.createElement('h2');
+  el.innerHTML = "Chat";
+  return el;
+}
 
-export default Chat;
