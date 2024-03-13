@@ -1,7 +1,7 @@
-const Home = () => {
-    const homeElement = document.createElement('');
-    homeElement.innerHTML = "blabla";
+const homePage = () => {
+    const homeElement = document.createElement('div');
+    homeElement.innerHTML = "aqui será a página inicial";
     return homeElement;
 }
 
-export { homeContent };
+export { homePage };

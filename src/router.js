@@ -6,15 +6,15 @@ const setRootEl =(el) => {
 }
 
 function setRoutes(routes) {
-   ROUTES = routes
+   ROUTES = routes 
 }
 
-function renderView() {
-    
+function renderView(view) {
+    rootEl.appendChild(ROUTES[view]()) 
 }
 
-function onURLChange() {
-    
+function onURLChange(location) {
+    renderView(location.hash)
 }
 
 export {setRootEl, setRoutes, renderView, onURLChange};
