@@ -1,0 +1,14 @@
+header {
+    text-align: right;
+    background-color: #e0cede5c;
+    font-weight: bold;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: baseline;
+    height: fit-content;
+    border-radius: 50px;
+}
