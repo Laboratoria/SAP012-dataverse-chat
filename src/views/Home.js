@@ -11,7 +11,7 @@ export const Home = () => {
           <a href="/">Home</a>
         </li>
         <li>
-         <a href="/Chat">Chat</a>
+          <a href="/Chat">Chat</a>
         </li>
       </ul>
     </nav>
@@ -25,6 +25,7 @@ export const Home = () => {
 
   const rootElements = document.getElementById("root");
   rootElements.insertAdjacentElement("beforebegin", headerEl);
+
 
   return el;
 }
