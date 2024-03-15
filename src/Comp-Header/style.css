@@ -1,0 +1,28 @@
+header h1 {
+    text-align: left;
+    color: #704E4E;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.headerPng {
+    float: left;
+    width: 115px;
+    height: 155px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+/* resolvido erro no teste > incluido o footer */
+header p {
+    background-color: #DBC980;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
